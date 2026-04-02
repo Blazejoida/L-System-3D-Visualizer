@@ -32,7 +32,7 @@ Full 3D symbol set:
 | `^` | Pitch up by δ |
 | `\` | Roll left by δ (rotate around **H** - heading axis) |
 | `/` | Roll right by δ |
-| `\|` | U-turn — yaw 180° |
+| `\|` | U-turn - yaw 180° |
 | `[` | Push turtle state onto stack |
 | `]` | Pop turtle state from stack |
 
@@ -86,7 +86,7 @@ Angle : 120    Scale : 0.5    Iter : 5–7
 | Zoom | Scroll wheel |
 | Reset camera | "Reset camera" button |
 | Change preset | Dropdown list |
-| Set iterations | Slider (1–20) **or** type a number and press **Enter** |
+| Set iterations | Slider (1-20) **or** type a number and press **Enter** |
 | Override branch angle | Angle slider (0 = use preset value) |
 | Custom colours | Enable checkbox, then click swatch buttons |
 | Custom grammar | Click "+ Custom grammar..." |
@@ -97,7 +97,7 @@ Angle : 120    Scale : 0.5    Iter : 5–7
 
 - Visual Studio 2022 (MSVC v143)
 - Windows 10 SDK
-- **freeglut** — for `gl.h` / `glu.h` headers and `glu32.lib`
+- **freeglut** - for `gl.h` / `glu.h` headers and `glu32.lib`
 
 ---
 
