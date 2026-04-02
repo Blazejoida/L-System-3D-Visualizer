@@ -2,6 +2,8 @@
 
 A real-time interactive 3D L-system (Lindenmayer system) visualizer built with **Windows API** and **OpenGL**. Implements the official turtle graphics specification from *The Algorithmic Beauty of Plants* (Prusinkiewicz & Lindenmayer, 1990).
 
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/ff64f8c1-fd5f-4dd4-8632-cd11cdb537e0)
+
 ---
 
 ## Features
@@ -38,9 +40,20 @@ All other letters are **non-drawing grammar nodes**. The turtle skips them silen
 
 ---
 
+## Built-in Presets
+
+### Example preset
+
+<img width="700" alt="Zrzut ekranu 2026-04-02 143642" src="https://github.com/user-attachments/assets/cc2ef1a0-cdab-4324-b4dd-fd21cf3720a2" />
+
+---
+
 ## Custom Grammar Editor
 
 Click **+ Custom grammar...** to open the modeless editor. It supports any deterministic context-free L-system.
+
+<img width="700" alt="Zrzut ekranu 2026-04-02 142823" src="https://github.com/user-attachments/assets/64dd3680-6648-4f88-9eef-1335c9dad27f" />
+
 
 ### Input format
 
@@ -51,7 +64,7 @@ Click **+ Custom grammar...** to open the modeless editor. It supports any deter
 | Angle | δ in degrees (0.5–360) |
 | Scale | Step length multiplier applied at each `[` push (0.1–2.0) |
 
-### Example grammars
+### Example grammar
 
 **Sierpiński triangle** (edge rewriting):
 ```
@@ -60,6 +73,9 @@ F = F-G+F+G-F
 G = GG
 Angle : 120    Scale : 0.5    Iter : 5–7
 ```
+
+<img width="700" alt="Zrzut ekranu 2026-04-02 142809" src="https://github.com/user-attachments/assets/a82da711-3fe1-4436-8fe5-e57ab6face2d" />
+
 ---
 
 ## Controls
